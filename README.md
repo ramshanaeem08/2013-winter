@@ -2,7 +2,7 @@
 
 Let's learn about webpages :smile:
 
-I'm going to try and keep everything simple and try to avoid any technical jargon. Dive into a topic:
+I'm going to keep everything simple and try to avoid any technical jargon. Dive into a topic:
 
 - What the heck is a webpage? [Read it](https://github.com/EID100/2013-winter/wiki/Step-01:-What-the-heck-is-a-webpage%3F)
 - What makes up a webpage? [Read it](https://github.com/EID100/2013-winter/wiki/Step-02:-What-makes-up-a-webpage%3F)
