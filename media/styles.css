@@ -1,4 +1,3 @@
-
 body {
     font-size: 20px;
     font-family: sans-serif;
@@ -29,6 +28,13 @@ hr {
     padding: 0;
 }
 
+
+/* Anti-pattern right here. Don't do this! */
+ul > li:first-child > a:before {
+    content: "Example webpage: ";
+    font-weight: bold;
+    color: #000;
+}
 
 
 
