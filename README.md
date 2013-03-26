@@ -11,3 +11,5 @@ I'm going to keep everything simple and try to avoid any technical jargon. Dive 
 - [How can I make my webpage prettier? (optional)](https://github.com/EID100/2013-winter/wiki/Chapter-05:-How-can-I-make-my-webpage-prettier%3F-%28optional%29)
 - [How can I preview my webpage online? (optional)](https://github.com/EID100/2013-winter/wiki/Chapter-06:-How-can-I-preview-my-webpage-online%3F-%28optional%29)
 - [How can I put my webpage online?](https://github.com/EID100/2013-winter/wiki/Chapter-07:-How-can-I-put-my-webpage-online%3F)
+
+- [HELPPPPP!!!!!](https://github.com/EID100/2013-winter/wiki/HELPPPPP!!!!!)
