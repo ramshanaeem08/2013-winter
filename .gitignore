@@ -1,6 +1,6 @@
 
 .DS_Store
 
-eid100.sublime-project
+*.sublime-workspace
 
-eid100.sublime-workspace
+*.sublime-project
