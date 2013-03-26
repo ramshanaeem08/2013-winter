@@ -3,9 +3,15 @@ body {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 100;
-    width: 480px;
+    max-width: 480px;
     margin: 2em auto;
 }
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 500;
+}
+
+
 a {
     color: #0089ec;
     text-decoration: none;
@@ -13,3 +19,106 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 2em 0;
+    padding: 0;
+}
+
+
+
+
+/* ==========================================================================
+   $HELPERS
+   ========================================================================== */
+
+.dimmed,
+a.dimmed {
+    color: #999;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.warning {
+    color: #e20;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+
+/**
+ * Clear fix from HTML5 Boilerplate
+ */
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   $BUTTONS
+   ========================================================================== */
+
+.button {
+    display: inline-block;
+    border: 3px solid #0089ec;
+    padding: .33em .67em;
+
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+
+    -webkit-transition: all .15s;
+       -moz-transition: all .15s;
+            transition: all .15s;
+}
+.button--secondary {
+    color: #999;
+    border-color: #999;
+}
+.button--small {
+    font-size: .67em;
+}
+.button--big {
+    font-size: 1.25em;
+}
+
+.button:hover {
+    background: #0089ec;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button--secondary:hover {
+    background: #999;
+}
+
+
+
+
