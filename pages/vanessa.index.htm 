@@ -18,7 +18,7 @@
            <h1> Vanessa's Webpage - EID100 </h1>
             This is a <a herf="http://vanessablairmatos.wordpress.com/"hyperlink</a> to my blog, where I will be posting all course assignments for EID100. <br/>
                 <button on OnClick="FuzzyPickles()">Click Here For Date!</button> <br/>
-<ul>  <li><a herf="pages"/vanessa">Vanessa Matos</a><li>
+<ul>  <li><a href="pages/vanessa">Vanessa Matos</a><li>
         <img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-snc7/4803852_10152193536_1290229648_n.jpeg" / <br />
 
 <p>
