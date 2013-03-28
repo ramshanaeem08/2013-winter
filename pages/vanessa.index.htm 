@@ -1,0 +1,65 @@
+<html>
+           <head>
+                   <title> Vanessa's Webpage</title>
+
+                      
+                   <script>
+                    Function FuzzyPickles(){
+                    var todaysDate = new Date ();
+                    var day = todaysDate.getDate(); 
+                    var month = todaysDate.getMonth() + 1;
+                    var year = todaysDate.getFullYear(); 
+
+                    alert ("Today's date is : " + month + "/" + day + "/" + year );
+                    }
+             </script>
+        </head>
+        <body bgcolor= "#8DEEE">
+           <h1> Vanessa's Webpage - EID100 </h1>
+            This is a <a herf="http://vanessablairmatos.wordpress.com/"hyperlink</a> to my blog, where I will be posting all course assignments for EID100. <br/>
+                <button on OnClick="FuzzyPickles()">Click Here For Date!</button> <br/>
+
+        <img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-snc7/4803852_10152193536_1290229648_n.jpeg" / <br />
+
+<p>
+     &nbsp Hi there, welcome to my first coded from scratch webpage, here is the beginning of my own personal webpage to share information, links to contact info, blog info and any relvent information or opportunties at Ryerson or within my field.
+Heres just a little information about myself. I am currently an undergraduate student at Ryerson Univeristy, majoring in Sociology and minoring in Non-Profit Business Management. 
+My future education goals is a certificate in Social Work. My career goals include working with marginalized communities, in the non-profit sector within a social worker role.
+And ultimatly creating my own non-profit organiztion, targeting education for young women. I am passionate about social justice issues and creating more equality throughout the world.
+<p/>
+<b/>
+<b/>
+<b/>
+<table boarder="1">
+<tr>
+        <td>BENEFITS OF LEARNING TO CODE</td>
+</td>
+<tr>
+        <td> Basic skill set</td>
+        <td> Due to the digital divide, issues with accessibility</td>
+</tr>
+<tr>
+        <td>Creating new and innovative ways of thinking critically</td>
+        <td> Diffucult to learn without basic training</td>
+</tr>
+<tr>
+        <td>Essential disipline for future global economy</td>
+        <td> More challenging to adapt to with age</td>
+</tr>
+</table>
+<br/>
+<br/>
+<br/>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
