@@ -1,13 +1,22 @@
 <html>
-  <head>
-<!--<link type="text/css" rel="stylesheet" href="stylesheet.css"/>-->
+	<head>
+<!--<link type="text/css" rel="stylesheet" href="stylesheet.css"/> Leftover code from CSS experiment ignore me-->
+<!-- Here is the Title of my page-->
 		<title>
 		History of Donkey Kong
 		</title>
 	</head>
+	<!-- background is set to black-->
 	<body style="background-color:black">
+	<!-- First big heading with the font family and font color-->
 		<h1 style="font-family:Garamond;color:red; text-align: center">History of Donkey Kong!</h1>
-		<p>
+		<p align="center">
+		
+			<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Donkey_Kong_arcade.jpg/150px-Donkey_Kong_arcade.jpg"/>
+			
+		</p>
+		<!-- Lots of gifs of donkey kong-->
+		<p align="center">
 			<img style="height:50px;width:50px" src="http://25.media.tumblr.com/c0b86694f840b6928f308700cf208faf/tumblr_mj9qzccyeu1rfjowdo1_500.gif"/>
 			<img style="height:50px;width:50px" src="http://25.media.tumblr.com/c0b86694f840b6928f308700cf208faf/tumblr_mj9qzccyeu1rfjowdo1_500.gif"/>
 			<img style="height:50px;width:50px" src="http://25.media.tumblr.com/c0b86694f840b6928f308700cf208faf/tumblr_mj9qzccyeu1rfjowdo1_500.gif"/>
@@ -28,6 +37,7 @@
 			<img style="height:50px;width:50px" src="http://25.media.tumblr.com/c0b86694f840b6928f308700cf208faf/tumblr_mj9qzccyeu1rfjowdo1_500.gif"/>
 			
 		</p>
+		<!-- Table with character images and names-->
 		<p>
 		<table border="1px" style="color:white;float:right">
 			<thead>
@@ -52,6 +62,7 @@
 		</table>
 		
 		</p>
+		<!-- The actual History bit-->
 		<p>
 			<h2 style="color:white">
 				A Brief History
@@ -60,26 +71,62 @@
 			While trying to enter the American arcade market Nintendo decided to create a game based on the cartoon character called Popeye. Due to lisencing problems the characters
 			of Popeye were cut but the game remained. <a style = "color:yellow" href="http://en.wikipedia.org/wiki/Shigeru_Miyamoto"> Shigeru Miyamoto</a> came up with the designs of the new characters and the way the game would play. The game consisted of 4 repeating levels in which the hero
 			(Mario) would try to rescue the Lady captured by the giant Gorilla. Mario could jump to avoid enemies and dodge barrels all while climbing the tower to reach the lady.Donkey Kong was named after 
-			King Kong but because Miyamoto decided the Gorilla would not be very smart and but very stubborn he became <em>Donkey</em> Kong. The lady in need of rescue was named Pauline after the wife of the warehouse manager. Mario would get his name from the warehouse's
-			owner. The Donkey Kong arcade machines were first put into bars in 1981, The Donkey Kong Game an instant hit earning 200+ dollars per day.Mario would go on to star in a countless variety of games on various game systems
+			King Kong but because Miyamoto decided the Gorilla would not be very smart but very stubborn he became <em>Donkey</em> Kong. The lady in need of rescue was named Pauline after the wife of the manager of the warehouse in which Nintendo of America set up shop. Mario would get his name from the warehouse's
+			owner. The Donkey Kong arcade machines were first put into bars in 1981, The Donkey Kong Game became an instant hit earning 200+ dollars a week.Mario would go on to star in a countless variety of games on various game systems
 			becoming the face of Nintendo.Donkey Kong would also go on to become one of Nintendo's most recognizable mascots even getting several games to call his own.
 			</span>
 		</p>
 		<p style="color:white">
 		For more information on Nintendo and Donkey Kong as well as the source of the information for this page take a look at the following video
 		</p>
+		<!-- embedded video from youtube-->
 		<p>
 		<iframe width="560" height="315" src="http://www.youtube.com/embed/c0gNaUib4UU" frameborder="0" allowfullscreen></iframe>
-		<button onclick="myFunction('1')">Like This Page</button>
 		</p>
-		
+		<!-- A simple rock paper scissors game-->
+		<p style="color:white">
+			Lets play a version of rock paper scissors with Donkey Kong Characters where Donkey Kong>Pauline>Mario>Donkey Kong. Select a button below.
+		</p>
+		<p>
+			<button onclick="myFunction('0')">Mario</button>
+			<button onclick="myFunction('1')">Pauline</button>
+			<button onclick="myFunction('2')">Donkey Kong</button>
+		</p>
+		<!-- The Java script that makes the game happen-->
 		<script>
 		var totalvotecount=0;
 		function myFunction(vote)
 			{
-			totalvotecount++;
-				alert("You gave this page " + totalvotecount + " like(s)");
-				
+			var randomnumber =Math.floor(Math.random()*3);
+			
+			if(randomnumber==0&&vote==0||randomnumber==1&&vote==1||randomnumber==2&&vote==2)
+				{
+				alert("Tie ");
+				}
+			if(randomnumber==0&&vote==1)
+				{
+				alert("Computer choose Mario,You Win");
+				}
+			if(randomnumber==1&&vote==2)
+				{
+				alert("Computer choose Pauline,You Win");
+				}
+			if(randomnumber==2&&vote==0)
+				{
+				alert("Computer Choose Donkey Kong,You Win");
+				}	
+			if(randomnumber==2&&vote==1)
+				{
+				alert("Computer choose Donkey Kong, You Lose ");
+				}
+			if(randomnumber==1&&vote==0)
+				{
+				alert("Computer choose, Pauline, You Lose ");
+				}
+			if(randomnumber==0&&vote==2)
+				{
+				alert("Computer choose Mario,You Lose ");
+				}	
 			}
 		</script>
 	</body>
