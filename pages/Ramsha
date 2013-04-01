@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+   <meta charset="utf-8">
+     <title> Ramsha's Webpage </title>
+     <style>
+       table {
+          border-collapse: collapse;
+          border-spacing: 0;
+      }
+      table td {
+          border: 1px solid #ccc;
+          padding: .5em;
+      }
+       body {
+          background-color: orange;
+       }
+     </style>
+	</head>
+	<body>
+   <h1> Ramsha's Webpage :) </h1>
+   <p> Why hello! Welcome to my customized webpage. </p>
+   <p> My name is Ramsha Naeem. I am currently a third year Business Management student, majoring in Marketing and minoring in Retail Management. My interests and hobbies include shopping, social media, watching television series, art and cooking. I like trying new things and keeping my self busy by being active in school. I currently hold the position of Social Media Coordinator for the Ted Rogers Management Conference and am also a Marketing Member on TEDxRyersonU. </p>
+   <p> Many people find it interesting that I am an international student. I was born and raised in the Middle East and moved to Canada about 3 years ago for secondary education. The following picture is just a sneak peek of my home town! </p>
+
+<img width=700 src="http://i.imgur.com/0XwZXJl.jpg">
+
+  <p> As I mentioned, watching television series is a huge part of my life and probably my favorite way of spending my alone time. The following table mentions some the television series I watch and my rating for each. </p>
+<table>
+  <tr>
+    <td><b>Rating</b></td>
+    <td><b>Series</b></td>
+  </tr>
+  <tr>
+    <td>9.2/10</td>
+    <td>Breaking Bad</td>
+  </tr>
+  <tr>
+    <td>9.5/10</td>
+    <td>Dexter</td>
+  </tr>
+  <tr>
+    <td>8.7/10</td>
+    <td>Suits</td>
+  </tr>
+  <tr>
+    <td>8.8/10</td>
+    <td>The Office</td>
+  </tr>
+  <tr>
+    <td>8.8/10</td>
+    <td>Modern Family</td>
+  </tr>
+  <tr>
+    <td>7.8/10</td>
+    <td>Grey's Anatomy</td>
+  </tr>
+  <tr>
+    <td>8.6/10</td>
+    <td>Homeland</td>
+  </tr>
+  <tr>
+    <td>8/10</td>
+    <td>New Girl</td>
+  </tr>
+  <tr>
+    <td>8.4/10</td>
+    <td>Community</td>
+  </tr>
+</table>
+  
+  <p> The following link is my blog for EID100: <a href="default.htm"> http://ramshanaeem.wordpress.com/ </a>
+  
+	</body>
+</html>
